@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>সরকারি হাজী আসমত কলেজ</title>
+  <style>
+    body {
+      font-family: 'SolaimanLipi', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(180deg, #f4f7fb, #e6f0ff);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #004080, #0099cc);
+      color: white;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+      transform: scale(1.1);
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400/004080/ffffff?text=College+Campus') no-repeat center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+      position: relative;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.4);
+    }
+    .hero h2, .hero p {
+      position: relative;
+      z-index: 1;
+    }
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+      animation: fadeInDown 2s;
+    }
+    .hero p {
+      font-size: 22px;
+      animation: fadeInUp 2s;
+    }
+    @keyframes fadeInDown {
+      from {opacity:0; transform: translateY(-30px);}
+      to {opacity:1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      from {opacity:0; transform: translateY(30px);}
+      to {opacity:1; transform: translateY(0);}
+    }
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 28px;
+      color: #004080;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      border-bottom: 3px solid #0099cc;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: linear-gradient(135deg, #ffffff, #e6f0ff);
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      padding: 25px;
+      width: 28%;
+      margin: 15px;
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+    .card:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .card h3 {
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    footer {
+      background: linear-gradient(90deg, #004080, #0099cc);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>সরকারি হাজী আসমত কলেজ</h1>
+    <nav>
+      <a href="#home">হোম</a>
+      <a href="#about">আমাদের সম্পর্কে</a>
+      <a href="#notice">নোটিশ</a>
+      <a href="#contact">যোগাযোগ</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>স্বাগতম!</h2>
+    <p>শিক্ষা, সংস্কৃতি ও উন্নয়নের পথে এগিয়ে চলা একটি প্রতিষ্ঠান।</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>আমাদের সম্পর্কে</h2>
+    <p>সরকারি হাজী আসমত কলেজ একটি ঐতিহ্যবাহী শিক্ষা প্রতিষ্ঠান। এখানে আধুনিক পাঠ্যক্রম, দক্ষ শিক্ষকবৃন্দ এবং ছাত্র-ছাত্রীদের জন্য বিস্তৃত সুযোগ রয়েছে।</p>
+  </section>
+
+  <section id="notice" class="section">
+    <h2>নোটিশ বোর্ড</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>ভর্তি বিজ্ঞপ্তি</h3>
+        <p>২০২৫ শিক্ষাবর্ষে ভর্তি কার্যক্রম শেষ হয়েছে।</p>
+      </div>
+      <div class="card">
+        <h3>পরীক্ষার সময়সূচি</h3>
+        <p>একাদশ শ্রেণির মাধ্যমিক পরীক্ষা জানুয়ারি ২৫ তারিখ অনুষ্ঠিত হবে।</p>
+        <p>পরীক্ষা শেষ হবে ১৬ ফেব্রুয়ারি।</p>
+      </div>
+      <div class="card">
+        <h3>সেমিনার</h3>
+        <p>আগামী মাসে বিজ্ঞান ও প্রযুক্তি বিষয়ক সেমিনার অনুষ্ঠিত হবে।</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>যোগাযোগ</h2>
+    <p>ঠিকানা: হাজী আসমত কলেজ, ঢাকা</p>
+    <p>ফোন: 01611939376</p>
+    <p>ইমেইল: shourovi350@.rf.gd</p>
+  </section>
+
+  <footer>
+    © 2026 সরকারি হাজী আসমত কলেজ | ডিজাইন: Shourov Ahmed
+  </footer>
+</body>
+</html>
